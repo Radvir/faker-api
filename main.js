@@ -3,6 +3,7 @@ import cors from 'cors';
 import faker from 'faker';
 
 const app = express();
+const port = process.env.PORT || 80;
 
 app.use(cors());
 
@@ -30,6 +31,6 @@ app.get('/users/:count', (req, res) => {
   res.json(users);
 });
 
-app.listen(80, () => {
-  console.log(`Server is running on port 80`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
