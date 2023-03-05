@@ -3,7 +3,7 @@ import cors from 'cors';
 import faker from 'faker';
 
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 
