@@ -2,7 +2,7 @@
 
 ## __About__
 
-This is a simple api which is used to gain fake data with the use of a url. This way you don't need to install any package
+This is a simple api which is used to gain fake data with the use of a url. This way you don't need to install any package.
 
 ## __Usage__
 
